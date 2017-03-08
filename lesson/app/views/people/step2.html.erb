@@ -1,0 +1,7 @@
+<% @people.each do |person| %>
+	<% if person.gender == 0 %>
+		<p>こんにちは<%= person.name %>くん</p>
+	<% else %>
+		<p>こんにちは<%= person.name %>ちゃん</p>
+	<% end %>
+<% end %>
